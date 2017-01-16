@@ -16,6 +16,10 @@ describe "Receta" do
   it "Se puede crear el objeto (con parametros)" do
     expect(@receta_con).not_to be nil
   end
+  
+  it "Se puede mostrar la receta" do
+    expect(@receta_con.mostrar()).not_to be nil
+  end
 end
   
 end
